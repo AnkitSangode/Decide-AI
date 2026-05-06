@@ -1,0 +1,7 @@
+MongoDB is a NoSQL database that stores data in JSON-like documents.
+
+PostgreSQL is a relational database with strong ACID compliance.
+
+MongoDB is flexible and scalable for unstructured data.
+
+PostgreSQL is better for complex queries and structured data.

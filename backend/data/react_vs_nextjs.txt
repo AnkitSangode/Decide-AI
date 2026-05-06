@@ -1,0 +1,7 @@
+React is a JavaScript library for building user interfaces.
+
+Next.js is a React framework that provides features like server-side rendering, routing, and API handling.
+
+React is flexible but requires additional setup for routing and SSR.
+
+Next.js is better for SEO and production-ready applications.
