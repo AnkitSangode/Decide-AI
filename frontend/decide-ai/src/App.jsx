@@ -7,6 +7,8 @@ export default function App() {
   const [loading, setLoading] = useState(false);
   const chatRef = useRef(null);
 
+  const API_URL = import.meta.env.VITE_API_URL;
+
   useEffect(() => {
     chatRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages]);
@@ -21,7 +23,7 @@ export default function App() {
     setMessages((prev) => [...prev, { role: "bot", text: "" }]);
 
     try {
-      const response = await fetch("http://localhost:8000/query-stream", {
+      const response = await fetch(`${API_URL}/query-stream`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ query }),
