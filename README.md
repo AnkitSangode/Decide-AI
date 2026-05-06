@@ -79,16 +79,16 @@ Streaming Generator
 ## 📸 Demo
 
 ### UI
-![UI](./assets/ui.png)
+![UI](./assets/decide-ai_UI.png)
 
 ### Example Output
-![Output](./assets/output.png)
+![Output](./assets/decide-ai_working.png)
 
 ---
 
 ## 🎥 Live Demo
 
-👉 (Add deployed link here)
+👉 Coming soon...
 
 ---
 
