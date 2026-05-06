@@ -16,12 +16,13 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://decide-ai-nine.vercel.app/"],
+    allow_origins=[
+        "https://decide-ai-nine.vercel.app"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 # Initialize graph once
 llm = ChatOpenAI(
     model="gpt-4o-mini", 
