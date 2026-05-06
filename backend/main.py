@@ -16,7 +16,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://decide-dsobuji1g-ankits-projects-a53425ee.vercel.app/"],
+    allow_origins=["https://decide-ai-nine.vercel.app/"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
